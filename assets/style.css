@@ -690,3 +690,9 @@ body {
         height: calc(100vh - 10rem);
     }
 }
+
+@media (min-width: 1500px) {
+    html {
+        font-size: 20px;
+    }
+}
