@@ -14,7 +14,7 @@
 <body>
 
     <header class="header">
-        <img src="./assets/img/Viper-logo-8E91A4FB96-seeklogo.com.png" alt="logo" class="logo">
+        <img src="./assets/img/viperware-logo.png" alt="logo" class="logo">
         <nav class="navbar">
             <label for="menu-toggle" class="menu-label"><i class="fa-solid fa-bars menu"></i></label>
             <input type="checkbox" id="menu-toggle" class="menu-toggle">
@@ -43,12 +43,11 @@
     <section id="home">
         <div class="hero">
             <img src="./assets/img/heroa1.png" alt="hero img" class="hero-img hero-desktop">
-            <img src="./assets/img/herob1.png" alt="hero img" class="hero-img hero-mobile">
             <div class="hero-container">
                 <div class="hero-info">
                     <h1 class="hero-title">Discover Viperware</h1>
                     <p class="hero-text">Experience innovation and top of the line components, style and customization with Viperware.</p>
-                    <a href="#" class="hero-btn">Learn More</a>
+                    <a href="#" class="hero-btn btn">Learn More</a>
                 </div>
             </div>
         </div>
@@ -56,7 +55,7 @@
 
     <section id="about">
         <div class="about">
-            <img src="./assets/img/Viper-logo-8E91A4FB96-seeklogo.com.png" alt="" class="about-bg">
+            <img src="./assets/img/viperware-logo.png" alt="viperware logo" class="about-bg">
             <p class="about-text">
                 From cutting-edge gaming and creator laptops to high-end components for your dream PC build, Viperware systems are meticulously crafted to provide the ultimate performance for work and play. Supported by our diverse collection of gamer accessories and PC peripherals, we’ve got you covered when it comes to your unique gaming or office desktop needs.
             </p>
@@ -98,25 +97,14 @@
     <section id="products">
 
         <div class="product-container">
-
-            <h2 class="product-title">Products</h2>
-
-            <div class="product-label-container">
-                <label for="select-desktop" class="product-label">Desktop</label>
-
-                <label for="select-laptop" class="product-label">Laptop</label>
-
-                <label for="select-extra" class="product-label">Accessories</label>
-            </div>
-
             <div class="product">
-                <input type="radio" name="product-select" id="select-desktop" class="product-select toggle-desktop">
-
-                <input type="radio" name="product-select" id="select-laptop" class="product-select toggle-laptop">
-
-                <input type="radio" name="product-select" id="select-extra" class="product-select toggle-extra">
-
-                <div class="product-desktop product-category">
+                <h2 class="product-title">Products</h2>
+                <div class="product-nav">
+                    <a class="product-select btn" href="#product-desktop">Desktops</a></li>
+                    <a class="product-select btn" href="#product-laptop">Laptops</a></li>
+                    <a class="product-select btn" href="#product-extra">Accessories</a></li>
+                </div>
+                <div class="product-category" id="product-desktop">
                     <h3 class="category-title">Desktops</h3>
 
                     <div class="product-list">
@@ -136,7 +124,7 @@
                             <div class="item-buy">
                                 <span class="item-price">$999.99
                                 </span>
-                                <button class="item-buy-btn">
+                                <button class="item-buy-btn btn">
                                     Add to Cart
                                 </button>
                             </div>
@@ -157,7 +145,7 @@
                             <div class="item-buy">
                                 <span class="item-price">$1,999.99
                                 </span>
-                                <button class="item-buy-btn">
+                                <button class="item-buy-btn btn">
                                     Add to Cart
                                 </button>
                             </div>
@@ -178,7 +166,7 @@
                             <div class="item-buy">
                                 <span class="item-price">$2,999.99
                                 </span>
-                                <button class="item-buy-btn">
+                                <button class="item-buy-btn btn">
                                     Add to Cart
                                 </button>
                             </div>
@@ -199,7 +187,7 @@
                             <div class="item-buy">
                                 <span class="item-price">$3,999.99
                                 </span>
-                                <button class="item-buy-btn">
+                                <button class="item-buy-btn btn">
                                     Add to Cart
                                 </button>
                             </div>
@@ -210,8 +198,7 @@
                     </div>
 
                 </div>
-
-                <div class="product-laptop product-category">
+                <div class="product-category" id="product-laptop">
                     <h3 class="category-title">Laptops</h3>
 
                     <div class="product-list">
@@ -232,7 +219,7 @@
                             <div class="item-buy">
                                 <span class="item-price">$1,199.99
                                 </span>
-                                <button class="item-buy-btn">
+                                <button class="item-buy-btn btn">
                                     Add to Cart
                                 </button>
                             </div>
@@ -254,7 +241,7 @@
                             <div class="item-buy">
                                 <span class="item-price">$1,599.99
                                 </span>
-                                <button class="item-buy-btn">
+                                <button class="item-buy-btn btn">
                                     Add to Cart
                                 </button>
                             </div>
@@ -276,7 +263,7 @@
                             <div class="item-buy">
                                 <span class="item-price">$1,999.99
                                 </span>
-                                <button class="item-buy-btn">
+                                <button class="item-buy-btn btn">
                                     Add to Cart
                                 </button>
                             </div>
@@ -298,7 +285,7 @@
                             <div class="item-buy">
                                 <span class="item-price">$2,499.99
                                 </span>
-                                <button class="item-buy-btn">
+                                <button class="item-buy-btn btn">
                                     Add to Cart
                                 </button>
                             </div>
@@ -307,8 +294,7 @@
                     </div>
 
                 </div>
-
-                <div class="product-extra product-category">
+                <div class="product-category" id="product-extra">
                     <h3 class="category-title">Accessories</h3>
 
                     <div class="product-list">
@@ -326,7 +312,7 @@
                             <div class="item-buy">
                                 <span class="item-price">$99.99
                                 </span>
-                                <button class="item-buy-btn">
+                                <button class="item-buy-btn btn">
                                     Add to Cart
                                 </button>
                             </div>
@@ -345,7 +331,7 @@
                             <div class="item-buy">
                                 <span class="item-price">$79.99
                                 </span>
-                                <button class="item-buy-btn">
+                                <button class="item-buy-btn btn">
                                     Add to Cart
                                 </button>
                             </div>
@@ -364,7 +350,7 @@
                             <div class="item-buy">
                                 <span class="item-price">$59.99
                                 </span>
-                                <button class="item-buy-btn">
+                                <button class="item-buy-btn btn">
                                     Add to Cart
                                 </button>
                             </div>
@@ -383,7 +369,7 @@
                             <div class="item-buy">
                                 <span class="item-price">$89.99
                                 </span>
-                                <button class="item-buy-btn">
+                                <button class="item-buy-btn btn">
                                     Add to Cart
                                 </button>
                             </div>
@@ -393,7 +379,50 @@
 
                 </div>
             </div>
+        </div>
 
     </section>
+
+    <section id="contact">
+        <div class="contact">
+            <h3 class="contact-title">Contact Us</h3>
+            <div class="contact-container">
+
+                <div class="contact-metod-container">
+                    <div class="contact-metod">
+                        <i class="fa-solid fa-phone contact-icon"></i>
+                        <p class="contact-text">+123-456789</p>
+                    </div>
+                    <div class="contact-metod">
+                        <i class="fa-solid fa-at contact-icon"></i>
+                        <p class="contact-text">contact@viperware.com</p>
+                    </div>
+                    <div class="contact-metod">
+                        <i class="fa-solid fa-location-dot contact-icon"></i>
+                        <p class="contact-text">4467 Warner Street Miami, Florida</p>
+                    </div>
+                </div>
+
+                <div class="contact-map"><iframe class="map" frameborder="0" scrolling="no" marginheight="0"
+                        marginwidth="0"
+                        src="https://maps.google.com/maps?width=100%25&amp;height=100%25&amp;hl=en&amp;q=405%20SW%2029th%20Ct,%20Miami,%20FL%2033135,%20United%20States+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a
+                            href="https://www.maps.ie/distance-area-calculator.html"></a></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="social">
+            <i class="fa-brands fa-instagram footer-icon"></i>
+            <i class="fa-brands fa-youtube footer-icon"></i>
+            <i class="fa-brands fa-twitter footer-icon"></i>
+            <i class="fa-brands fa-facebook footer-icon"></i>
+        </div>
+
+        <img src="./assets/img/viperware-logo.png" alt="logo" class="footer-logo">
+
+        <p class="copyright">Copyright © 2023 Viperware</p>
+    </footer>
 </body>
 </html>
