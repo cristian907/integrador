@@ -150,6 +150,7 @@ body {
 /* hero */
 
 .hero {
+    margin-top: 5rem;
     display: flex;
     flex-direction: column;
     position: relative;
