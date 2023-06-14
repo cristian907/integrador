@@ -518,7 +518,8 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100vh;
+    height: 90vh;
+    margin-top: 5rem;
 }
 
 .login-form {
@@ -795,6 +796,22 @@ body {
         flex-wrap: wrap;
         justify-content: center;
     }
+
+    /* login */
+
+    .login-form {
+        width: 80%;
+    }
+
+    .input-options {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .create-account {
+        flex-direction: column;
+        text-align: center;
+    }
 }
 
 @media (max-width: 300px) {
@@ -806,10 +823,20 @@ body {
         gap: 1rem;
     }
 
+    .header-alt {
+        height: 5rem;
+    }
+
+    .logo {
+        height: 100%;
+    }
+
     .navbar-list {
         top: 10rem;
         height: calc(100vh - 10rem);
     }
+
+
 }
 
 @media (min-width: 2000px) {
