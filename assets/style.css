@@ -489,10 +489,10 @@ body {
     padding: 1.5rem;
 }
 
-/* 
+
 .footer-alt {
-    margin-top: 5rem;
-} */
+    margin-top: 0;
+}
 
 .footer-icon {
     color: var(--text-secondary);
@@ -518,8 +518,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 80vh;
-    margin-top: 10rem;
+    height: 100vh;
 }
 
 .login-form {
@@ -799,7 +798,7 @@ body {
     /* login */
 
     .login-form {
-        width: 80%;
+        width: 70%;
     }
 
     .input-options {
@@ -809,7 +808,8 @@ body {
 
     .create-account {
         flex-direction: column;
-        text-align: center;
+        justify-content: center;
+        align-items: center;
     }
 }
 
